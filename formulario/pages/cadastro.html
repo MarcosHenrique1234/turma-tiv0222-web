@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro de alunos</title>
+</head>
+<body>
+   <style>
+    .linhaborda{
+        margin: 5px;
+    }
+
+   </style>
+    <header>
+        <nav>
+           
+            <a href="pages/index.html"><img src="/images/centeclogo.png" width="150px" alt="centec logo"></a> 
+            <a href="pages/cadastro.html"><img src="/images/cadastrologo.png.png" width="150px" alt="cadastro logo"></a>
+      
+        </nav>
+     
+        <hr>
+   
+    </header>
+    
+    <main>
+     
+        <h1>cadastro do aluno</h1>
+
+        <form action="">
+            <fieldset>
+                <legend>dados pessoais</legend>
+
+
+
+
+
+            <div class="linhaborda">
+                <label for="">nome:</label>
+                <input type="text" placeholder="digite seu nome">
+                <label for="">sobrenome:</label>
+                <input type="text" placeholder="digite seu sobrenome">
+            </div>
+            <div>
+                <label for="">genero:</label>
+                <input type="radio" name="genero" id=""> masculino
+                <input type="radio" name="genero"> feminino
+                <input type="radio" name="genero"> outro
+                <input type="text" placeholder="outro" disabled>
+            </div>
+            <div>
+                <label for="">nascimento:</label>
+                <input type="date" name="" id="">
+                <label for="">nascionalidade</label>
+                <select name="" id="">
+                    <option value="">selecione</option>
+                    <option value="">Brasil</option>
+                    <option value="">Paraguai</option>
+                    <option value="">Chile</option>
+                    <option value="">Venezuela</option>
+                    <option value="">Argentina</option>
+                    <option value="">Uruguai</option>
+                    <option value="">Guiana Inglesa</option>
+                    <option value="">Suriname</option>
+                    <option value="">Bolivia</option>
+                    <option value="">Colombia</option>
+
+                </select>
+                <select name="" id="">estado</select>
+                    <option value="">Amazonas</option>
+                    <option value="">São Paulo</option>
+                    <option value="">Acre</option>
+                    <option value="">Paraiba</option>
+                    <option value="">Amapa</option>
+
+            </div>
+            <hr>
+            <label for="">CPF</label>
+            <input type="number" name="" id="">
+            <label for="">RG: </label>
+            <input type="number">
+
+        </fieldset>
+        <fieldset>
+            <legend>dados login</legend>
+            <div>
+                <label for="">usuario</label>
+                <input type="text" placeholder="digite o nome do usuario">
+                <label for="">password</label>
+                <abbr title="senha de 6 digitos alfanumerico">
+                    <input type="password" name="" id="" placeholder="digite sua senha">
+                </abbr>
+                <abbr title="senha de 6 digitos alfanumerico">
+                    <input type="password" placeholder="repita sua senha">
+                </abbr>
+
+            </div>
+
+
+        </fieldset>
+        <div class="linhaborda">
+            <button type="submit">Salvar</button>
+            <button type="reset">limpar</button>
+
+        </div>
+
+        </form>
+        
+        <footer>
+        <h4>links uteis</h4>
+            <a href="https://www.google.com">google</a>
+            <a href="https://www.youtube.com">youtube</a>
+
+        </footer>
+
+    </main>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>
