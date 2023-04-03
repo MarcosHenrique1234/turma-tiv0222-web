@@ -1,0 +1,66 @@
+/*.color1 { #320fee };
+.color2 { #260bdb };
+.color3 { #1908c8 };
+.color4 { #0d04b4 };
+.color5 { #0000a1 };*/
+*{
+    text-decoration: none;
+    margin: 0;
+}
+footer{
+    background-color: #8919acef ;
+    min-height: 300px;
+    color: #ffffff;
+}
+
+
+
+
+main{
+    margin-right: 5px ;
+    margin-left: 5px ;
+    background-color:#d8d3f179 ;
+}
+header{
+    background-color: #2063dfee ;
+    border-bottom:2px solid #4648db;
+
+
+}
+
+.linhaborda{
+    margin: 5px ;
+    padding: 5px ;
+    border: 5px solid lightgrey
+    
+}
+
+
+#labelnome{
+    font-weight: 600;
+
+}
+
+
+label{
+    color: rgb(55, 55, 179);
+
+
+}
+
+.corH1{
+    color: rgba(16, 16, 102, 0.671);
+}
+
+
+
+.centro{
+    text-align: center;
+}
+
+
+
+
+
+
+

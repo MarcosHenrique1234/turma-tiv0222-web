@@ -4,20 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Style.css">
     <title>cadastro de alunos</title>
 </head>
 <body>
-   <style>
-    .linhaborda{
-        margin: 5px;
-    }
-
-   </style>
+   
     <header>
         <nav>
            
-            <a href="pages/index.html"><img src="/images/centeclogo.png" width="150px" alt="centec logo"></a> 
-            <a href="pages/cadastro.html"><img src="/images/cadastrologo.png.png" width="150px" alt="cadastro logo"></a>
+            <a href="pages/index.html"><img src="http://127.0.0.1:5500/formulario/images/centeclogo.png" width="50px" alt="centec logo"></a> 
+            <a href="pages/cadastro.html"><img src="http://127.0.0.1:5500/formulario/images/cadastrologo.png.png" width="50px" alt="cadastro logo"></a>
       
         </nav>
      
@@ -27,7 +23,7 @@
     
     <main>
      
-        <h1>cadastro do aluno</h1>
+        <h1 class=".corH1">cadastro do aluno</h1>
 
         <form action="">
             <fieldset>
@@ -35,12 +31,12 @@
 
 
 
-
+            
 
             <div class="linhaborda">
-                <label for="">nome:</label>
+                <label for="" id="labelnome">nome:</label>
                 <input type="text" placeholder="digite seu nome">
-                <label for="">sobrenome:</label>
+                <label for="" >sobrenome:</label>
                 <input type="text" placeholder="digite seu sobrenome">
             </div>
             <div>
@@ -66,15 +62,18 @@
                     <option value="">Suriname</option>
                     <option value="">Bolivia</option>
                     <option value="">Colombia</option>
+                
 
-                </select>
-                <select name="" id="">estado</select>
+
+                    
+                </select name="" id="" disabled>
+                    <option value="">estado</option>
                     <option value="">Amazonas</option>
                     <option value="">São Paulo</option>
                     <option value="">Acre</option>
                     <option value="">Paraiba</option>
                     <option value="">Amapa</option>
-
+                </select>
             </div>
             <hr>
             <label for="">CPF</label>
