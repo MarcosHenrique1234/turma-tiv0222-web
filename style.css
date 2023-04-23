@@ -1,103 +1,189 @@
+table{
+    border-collapse: collapse;
+    margin: 50px;
+    padding: 70px;
+    width: 60%;
+}
+tr{
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+td{
+    
+    text-align: center; 
+}
+.tabela{
+    border: 1px solid #dddddd;
+    flex-direction: column;
+    font-family: arial;
+    font-size: 18px;
+    margin: 50px;
+    padding: 25px;
+    
+}
+.times{
+    color: #666666;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 17px;
+    margin: 50px;
+}
+.um{
+    color: #003366;
+}
+.dois{
+    color: #003366;
+}
+.tres{
+    color: #003366;
+}
+.quatro{
+    color: #1398be;
+}
+.cinco{
+    color: #DE9800;
+}
+.seis{
+    color: #DE9800;
+}
+.sete{
+    color: #DE9800;
+}
+.oito{
+    color: #DE9800;
+}
+.nove{
+    color: #DE9800;
+}
+.dez{
+    color: #DE9800;
+}
+.onze{
+    color: #DE9800;
+}
+.doze{
+    color: #DE9800;
+}
+.treze{
+    color: #CCCCCC;
+}
+.catorze{
+    color: #CCCCCC;
+}.quinze{
+    color: #CCCCCC;
+}.dezesseis{
+    color: #CCCCCC;
+}
+.dezesete{
+    color: #C91B04;
+}
+.dezoito{
+    color: #C91B04;
+}
+.dezenove{
+    color: #C91B04;
+}
+.vinte{
+    color: #C91B04;
+}
 
-
-
-.basico{
-    border: 2px solid darkblue;
-    border-radius: 2px;
-    min-height: 27px;
-    background-color: #0C41F2;
+.valoresP{
+    color: #666666;
+    background-color: #F7F7F7;
+    align-items: center;
+    
 }
-.hr{
-    color: #1a1919;
+.valoresJ{
+    color: #666666;
+    background-color: #F7F7F7;
+    align-items: center;
+    padding: 7px;
 }
-
-
-.tabelagem{
-    border: 3px solid transparent;
-    margin: 20px;
-    height: 500px ;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: center;
-    background-color: #166FDB;
-    border-radius: 2px;
+.valoresV{
+    color: #666666;
+    background-color: #F7F7F7;
+    align-items: center;
+    padding: 7px;
 }
-footer{
-    background-color: #262a30;
-    min-height: 430px;
+.valoresE{
+    color: #666666;
+    background-color: #F7F7F7;
+    align-items: center;
+    padding: 7px;
+} 
+.valoresD{
+    color: #666666;
+    background-color: #F7F7F7;
+    align-items: center;
+    padding: 7px;
+}
+.valoresGP{
+    color: #666666;
+    background-color: #F7F7F7;
+    align-items: center;
+    
+}
+.valoresGC{
+    color: #666666;
+    background-color: #F7F7F7;
+    align-items: center;
+    
+}
+.valoresSG{
+    color: #666666;
+    background-color: #F7F7F7;
+    align-items: center;
+    
+}
+.valoresCENTO{
+    color: #666666;
+    background-color: #F7F7F7;
+    align-items: center;
+    
+}
+.divisõesum{
+    background-color: rgb(214, 214, 214);
+    color: #666666;
+}
+.divisóesud{
+    background-color: rgb(214, 214, 214);
     color: #000;
-    border-radius: 2px;
 }
-
-.a{
-    background-color: #0C37F2;
-    color: #000;
-    font-size: 20px;
-    border: 2px solid transparent;
-    padding: 10px;
-    margin: 4px;
-    flex-direction: row;
+.divisõesdois{
+    color: #666666;
 }
-.a:hover{
-    border-radius: 5px;
-    background-color: #0CB0F2;
-    transform: scale(1.20);
+.border{
+    border: 2px solid #CCCCCC;
 }
-.b{
-    background-color: #0C37F2;
-    color: #000;
-    font-size: 20px;
-    border: 2px solid transparent;
-    padding: 10px;
-    margin: 4px;
-    flex-direction: row;
+.rodapéum{
+    border: 2px solid #dddddd;
+    font-size: 10px;
+    color: #8f8f8f;
+    text-align: left;
+    
 }
-.b:hover{
-    border-radius: 5px;
-    background-color: #0CB0F2;
-    transform: scale(1.20);
+.tabeladois{
+    border: 1px solid #dddddd;
+    flex-direction: column;
+    font-family: arial;
+    font-size: 18px;
+    margin: 50px;
+    padding: 25px;
+    text-align: left;
 }
-.c{
-    background-color: #0C37F2;
-    color: #000;
-    font-size: 20px;
-    border: 2px solid transparent;
-    padding: 10px;
-    margin: 4px;
-    flex-direction: row;
+#cor{
+    background: #003366;
+    width: 10px;
+    height: 10px;
 }
-.c:hover{
-    border-radius: 5px;
-    background-color: #0CB0F2;
-    transform: scale(1.20);
+.cor2{
+    border: 3px solid #ffffff;
+    color: #1398be;
+    margin: 10px;
 }
-.d{
-    background-color: #0C37F2;
-    color: #000;
-    font-size: 20px;
-    border: 2px solid transparent;
-    padding: 10px;
-    margin: 4px;
-    flex-direction: row;
-}
-.d:hover{
-    border-radius: 5px;
-    background-color: #0CB0F2;
-    transform: scale(1.20);
-}
-.e{
-    background-color: #0C37F2;
-    color: #000;
-    font-size: 20px;
-    border: 2px solid transparent;
-    padding: 10px;
-    margin: 4px;
-    flex-direction: row;
-}
-.e:hover{
-    border-radius: 5px;
-    background-color: #0CB0F2;
-    transform: scale(1.20);
+.fonte{
+    font-size: 15px;
+    text-align: left;
 }
