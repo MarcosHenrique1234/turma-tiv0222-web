@@ -1,189 +1,115 @@
-table{
-    border-collapse: collapse;
-    margin: 50px;
-    padding: 70px;
-    width: 60%;
+body{
+    background-color: #424850;
 }
-tr{
-    border: 1px solid #dddddd;
-    text-align: center;
-}
-td{
+*{font-family: 'Pirata One', cursive;
+     }
+     .basico{
+        border: 2px solid rgb(0, 0, 8);
+        border-radius: 2px;
+        min-height: 27px;
+        background-color: #010208;
+    }
+    #hr{
+        color: #1a191925;
+        background-color: #262a30;
+    }
     
-    text-align: center; 
-}
-.tabela{
-    border: 1px solid #dddddd;
-    flex-direction: column;
-    font-family: arial;
-    font-size: 18px;
-    margin: 50px;
-    padding: 25px;
     
-}
-.times{
-    color: #666666;
-    font-size: 14px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    padding: 17px;
-    margin: 50px;
-}
-.um{
-    color: #003366;
-}
-.dois{
-    color: #003366;
-}
-.tres{
-    color: #003366;
-}
-.quatro{
-    color: #1398be;
-}
-.cinco{
-    color: #DE9800;
-}
-.seis{
-    color: #DE9800;
-}
-.sete{
-    color: #DE9800;
-}
-.oito{
-    color: #DE9800;
-}
-.nove{
-    color: #DE9800;
-}
-.dez{
-    color: #DE9800;
-}
-.onze{
-    color: #DE9800;
-}
-.doze{
-    color: #DE9800;
-}
-.treze{
-    color: #CCCCCC;
-}
-.catorze{
-    color: #CCCCCC;
-}.quinze{
-    color: #CCCCCC;
-}.dezesseis{
-    color: #CCCCCC;
-}
-.dezesete{
-    color: #C91B04;
-}
-.dezoito{
-    color: #C91B04;
-}
-.dezenove{
-    color: #C91B04;
-}
-.vinte{
-    color: #C91B04;
-}
-
-.valoresP{
-    color: #666666;
-    background-color: #F7F7F7;
-    align-items: center;
+    .tabelagem{
+        border: 3px solid transparent;
+        margin: 10px;
+        height: 1900px ;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: center;
+        background-color: #242323;
+        border-radius: 2px;
+    }
+    footer{
+        background-color: #262a30;
+        min-height: 430px;
+        color: #eb0505cc;
+        border-radius: 2px;
+    }
     
-}
-.valoresJ{
-    color: #666666;
-    background-color: #F7F7F7;
-    align-items: center;
-    padding: 7px;
-}
-.valoresV{
-    color: #666666;
-    background-color: #F7F7F7;
-    align-items: center;
-    padding: 7px;
-}
-.valoresE{
-    color: #666666;
-    background-color: #F7F7F7;
-    align-items: center;
-    padding: 7px;
-} 
-.valoresD{
-    color: #666666;
-    background-color: #F7F7F7;
-    align-items: center;
-    padding: 7px;
-}
-.valoresGP{
-    color: #666666;
-    background-color: #F7F7F7;
-    align-items: center;
+    .pagina_onepiece{
+        background-color: #33343d;
+        color: #000;
+        font-size: 20px;
+        border: 2px solid transparent;
+        padding: 10px;
+        margin: 4px;
+        flex-direction: row;
+        width: 30%;
+    }
+    .pagina_onepiece:hover{
+        border-radius: 5px;
+        background-color: #eff2f34d;
+        transform: scale(1.05);
+    }
+    .pagina_dragonball{
+        background-color: #33343d;
+        color: #000;
+        font-size: 20px;
+        border: 2px solid transparent;
+        padding: 10px;
+        margin: 4px;
+        flex-direction: row;
+        width: 30%
+    }
+    .pagina_dragonball:hover{
+        border-radius: 5px;
+        background-color: #eff2f34d;
+        transform: scale(1.05);
+    }
+    .pagina_berserk{
+        background-color: #33343d;
+        color: #000;
+        font-size: 20px;
+        border: 2px solid transparent;
+        padding: 10px;
+        margin: 4px;
+        flex-direction: row;
+        width: 30%
+    }
+    .pagina_berserk:hover{
+        border-radius: 5px;
+        background-color: #eff2f34d;
+        transform: scale(1.05);
+    }
+    .pagina_nanatsu{
+        background-color: #33343d;
+        color: #000;
+        font-size: 20px;
+        border: 2px solid transparent;
+        padding: 10px;
+        margin: 4px;
+        flex-direction: row;
+        width: 30%
+    }
+    .pagina_nanatsu:hover{
+        border-radius: 5px;
+        background-color: #eff2f34d;
+        transform: scale(1.05);
+    }
+    .imagem_dbz{
+        border: 1px solid transparent;
+        border-radius: 8px;
+    }
+    .imagem_onepiece{
+        border: 1px solid transparent;
+        border-radius: 8px;
     
-}
-.valoresGC{
-    color: #666666;
-    background-color: #F7F7F7;
-    align-items: center;
+    }
+    .imagem_berserk{
+        border: 1px solid transparent;
+        border-radius: 8px;
     
-}
-.valoresSG{
-    color: #666666;
-    background-color: #F7F7F7;
-    align-items: center;
+    }
+    .imagem_nanatsu{
+        border: 1px solid transparent;
+        border-radius: 8px;
     
-}
-.valoresCENTO{
-    color: #666666;
-    background-color: #F7F7F7;
-    align-items: center;
-    
-}
-.divisõesum{
-    background-color: rgb(214, 214, 214);
-    color: #666666;
-}
-.divisóesud{
-    background-color: rgb(214, 214, 214);
-    color: #000;
-}
-.divisõesdois{
-    color: #666666;
-}
-.border{
-    border: 2px solid #CCCCCC;
-}
-.rodapéum{
-    border: 2px solid #dddddd;
-    font-size: 10px;
-    color: #8f8f8f;
-    text-align: left;
-    
-}
-.tabeladois{
-    border: 1px solid #dddddd;
-    flex-direction: column;
-    font-family: arial;
-    font-size: 18px;
-    margin: 50px;
-    padding: 25px;
-    text-align: left;
-}
-#cor{
-    background: #003366;
-    width: 10px;
-    height: 10px;
-}
-.cor2{
-    border: 3px solid #ffffff;
-    color: #1398be;
-    margin: 10px;
-}
-.fonte{
-    font-size: 15px;
-    text-align: left;
-}
+    }
